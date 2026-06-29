@@ -93,7 +93,8 @@ This mode can be used for:
 
 ```text
 .
-├── game.py
+├── column.py
+├── column2.py
 ├── input.txt
 └── README.md
 ```
@@ -118,13 +119,13 @@ pip install pygame
 ### Interactive Mode
 
 ```bash
-python game.py
+python column.py
 ```
 
 ### Replay Mode
 
 ```bash
-python game.py
+python column2.py
 ```
 
 The program reads commands from `input.txt` and reproduces the game automatically.
